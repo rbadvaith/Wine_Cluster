@@ -87,14 +87,14 @@ This assignment involves building a machine learning application for predicting 
 ### Steps:
 1. Build and push the Docker image:
 - Build:
-  ```
+
 >>> docker build -t advaith123/bucketcluster:predict .
-  ```
+
 - Tag and push:
-  ```
+
 >>>  docker tag advaith123/bucketcluster:predict advaith123/bucketcluster:predict
 >>>  docker push advaith123/bucketcluster:predict
-  ```
+
 2. Start Docker on the EC2 instance:
 >>> sudo systemctl start docker sudo systemctl enable docker
 
