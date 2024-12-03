@@ -3,7 +3,7 @@
 ## Author Information
 - **Name**: Advaithbarath Raghuraman Bhuvaneswari
 - **UCID**: ar2728
-- **Docker**: [Your Docker Hub Link]
+- **Docker**: https://hub.docker.com/r/advaith123/bucketcluster/tags
 
 ---
 
@@ -87,14 +87,14 @@ This assignment involves building a machine learning application for predicting 
 ### Steps:
 1. Build and push the Docker image:
 - Build:
-  ```
+
 >>> docker build -t advaith123/bucketcluster:predict .
-  ```
+
 - Tag and push:
-  ```
+
 >>>  docker tag advaith123/bucketcluster:predict advaith123/bucketcluster:predict
 >>>  docker push advaith123/bucketcluster:predict
-  ```
+
 2. Start Docker on the EC2 instance:
 >>> sudo systemctl start docker sudo systemctl enable docker
 
@@ -135,17 +135,3 @@ This assignment involves building a machine learning application for predicting 
 - High prediction accuracy (96%) and F1 score (0.954791).
 - A containerized application for efficient deployment across environments.
 
----
-
-## References
-- Apache Spark MLlib Documentation
-- AWS EMR User Guide
-- Docker Official Documentation
-
----
-
-## Contact
-- **Author**: Advaithbarath Raghuraman Bhuvaneswari
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
-- **Docker**: [Your Docker Hub Profile]
