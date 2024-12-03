@@ -3,7 +3,7 @@
 ## Author Information
 - **Name**: Advaithbarath Raghuraman Bhuvaneswari
 - **UCID**: ar2728
-- **Docker**: [Your Docker Hub Link]
+- **Docker**: https://hub.docker.com/r/advaith123/bucketcluster/tags
 
 ---
 
@@ -135,17 +135,3 @@ This assignment involves building a machine learning application for predicting 
 - High prediction accuracy (96%) and F1 score (0.954791).
 - A containerized application for efficient deployment across environments.
 
----
-
-## References
-- Apache Spark MLlib Documentation
-- AWS EMR User Guide
-- Docker Official Documentation
-
----
-
-## Contact
-- **Author**: Advaithbarath Raghuraman Bhuvaneswari
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
-- **Docker**: [Your Docker Hub Profile]
